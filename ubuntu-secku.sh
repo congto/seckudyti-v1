@@ -21,7 +21,7 @@ test -f $filehostallow.bka || cp $filehostallow $filehostallow.bka
 sleep 5
 echo "###### Cau hinh TCPD ######"
 read -p"Nhap host duoc phep SSH: " allowssh
-echo "sshd: $allowssh 10.30.0. 203.162.130.231 203.162.130.241" >> $filehostallow
+echo "sshd: $allowssh 118.70.182.1 203.162.130.231 203.162.130.241" >> $filehostallow
 
 echo "sshd: ALL" >> $filehostdeny
 
